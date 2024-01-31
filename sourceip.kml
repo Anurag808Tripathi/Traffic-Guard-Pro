@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>sourceip.kml</name>
+    <open>1</open>
+    <Style id="exampleStyleDocument">
+      <LabelStyle>
+        <color>ff0000cc</color>
+      </LabelStyle>
+    </Style>
+
+    <!-- Placemark 1 -->
+    <Placemark>
+      <name>IP Address 1</name>
+      <styleUrl>#exampleStyleDocument</styleUrl>
+      <Point>
+        <coordinates>-73.985428,40.748817,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <!-- Placemark 2 -->
+    <Placemark>
+      <name>IP Address 2</name>
+      <styleUrl>#exampleStyleDocument</styleUrl>
+      <Point>
+        <coordinates>-74.006,40.7128,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <!-- Add more placemarks as needed -->
+
+  </Document>
+</kml>
